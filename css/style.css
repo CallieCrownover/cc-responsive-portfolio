@@ -1,0 +1,67 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #FA8FB3;
+    color: white;
+    text-align:center;
+}
+
+
+.background-image {
+    background-image: url("file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-01.png");
+    background-position: 0px 0px;
+    left: 0;
+    bottom:0;
+    right:0;
+    top:0;
+    position: fixed;
+    z-index: 1;
+    background-size: cover;
+    height: 160%
+}
+
+
+.p {
+    text-align:center;
+}
+
+
+.text {
+    margin: 30px 150px 30px 150px;
+    font-size: 20px;
+
+}
+
+
+.body {
+    background-image: url('file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-01.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.section {
+    padding: 0 100px;
+    background: url(file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-01.png);
+    display: flex;
+    align-items: center;
+}
+
+
+.box {
+    background: rgba(255, 255, 255, 0.9);
+    height: 90%;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

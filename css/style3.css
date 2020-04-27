@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #FDC621;
+    color: white;
+    text-align:center;
+}
+
+
+.background-image {
+    background-image: url("file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png");
+    background-position: 0px 0px;
+    left: 0;
+    bottom:0;
+    right:0;
+    top:0;
+    position: fixed;
+    z-index: 1;
+    background-size: cover;
+    height: 160%
+}
+
+
+.text {
+    margin: 30px 150px 30px 150px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.body {
+    background-image: url('file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.section {
+    padding: 0 100px;
+    background: url(file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png);
+    display: flex;
+    align-items: center;
+}
+
+
+.form-group {
+    justify-content: center;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.9);
+    height: 90%;
+    margin-top: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+
+  input[type=submit] {
+    background-color: #F9625B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #F9625B;
+  }
+  
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+  
+
+.column {
+    float: left;
+    margin-top: 6px;
+    padding: 20px;
+}
+  
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

@@ -11,9 +11,27 @@
     text-align:center;
 }
 
+#background {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+
+  #background img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
 
 .background-image {
-    background-image: url("file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-01.png");
+    background-image: url("./images/Background2-01.png");
     background-position: 0px 0px;
     left: 0;
     bottom:0;

@@ -29,10 +29,6 @@
     text-align:center;
 }
 
-.container {
-    align-content: space-around;
-    justify-content: space-between;
-}
 
 .text {
     margin: 30px 150px 30px 150px;
@@ -52,6 +48,7 @@
     padding-bottom: 40px;
     padding-right: 40px;
     padding-left: 40px;
+    margin: 30px;
 }
 
 

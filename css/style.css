@@ -11,7 +11,7 @@ p {
 
 
 body {
-    background-image: url('images/Background2-01.png');
+    background-image: url('./images/Background2-01.png');
     background-position: center;
     background-size: cover;
 

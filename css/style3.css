@@ -11,19 +11,13 @@
     text-align:center;
 }
 
+body {
+  background-image: url('./images/Background2-03.png');
+  background-position: center;
+  background-size: cover;
 
-.background-image {
-    background-image: url("file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png");
-    background-position: 0px 0px;
-    left: 0;
-    bottom:0;
-    right:0;
-    top:0;
-    position: fixed;
-    z-index: 1;
-    background-size: cover;
-    height: 160%
 }
+
 
 
 .text {
@@ -55,14 +49,14 @@
 }
 
 .box {
-    background: rgba(255, 255, 255, 0.9);
-    height: 100%;
-    margin-top: 0px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100%;
+  position: fixed;
+  margin-top: 0px;
+  margin-left: 22%;
+  margin-right: 22%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
   
 

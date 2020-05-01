@@ -9,7 +9,12 @@ p {
     text-align:center;
 }
 
+body {
+    background-image: url('./images/Background2-02.png');
+    background-position: center;
+    background-size: cover;
 
+}
 
 .text {
     margin: 30px 150px 30px 150px;

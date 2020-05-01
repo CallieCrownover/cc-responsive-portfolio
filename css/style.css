@@ -3,16 +3,17 @@
 }
 
 
-body {
-    overflow:auto;
-}
+
 
 p {
     text-align:center;
 }
 
 
+body {
+    background-image: url('./images/background2-01.png');
 
+}
 .text {
     margin: 30px 150px 30px 150px;
     font-size: 20px;

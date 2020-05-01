@@ -1,33 +1,14 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
 }
 
 
-.navbar {
-    width: 100%;
-    background-color: #ACE4CB;
-    color: white;
+
+
+p {
     text-align:center;
 }
 
-
-.background-image {
-    background-image: url("file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-02.png");
-    background-position: 0px 0px;
-    left: 0;
-    bottom:0;
-    right:0;
-    top:0;
-    position: fixed;
-    z-index: 1;
-    background-size: cover;
-    height: 160%
-}
-
-.p {
-    text-align:center;
-}
 
 
 .text {
@@ -36,37 +17,56 @@
 }
 
 
-.body {
-    background-image: url('file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-02.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
-.col-lg-4 {
-    padding-top: 0px;
-    padding-bottom: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
-    margin: 30px;
+
+
+#h1 {
+    text-align: center;
+    font-weight: bold;
 }
 
 
-.section {
-    padding: 0 100px;
-    background: url(file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-02.png);
-    display: flex;
-    align-items: center;
+
+
+.navbar-center {
+    position: relative;
+    width: 100%;
+    background-color: #ACE4CB;;
+
 }
+
+
 
 
 .box {
     background: rgba(255, 255, 255, 0.9);
-    height: 90%;
+    height: 100%;
     position: fixed;
     margin-top: 0px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+
+
+
+.col-lg-4 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+
+
+
+.container {
+    align-self: center;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 768px) { 
+    
+    @media screen and (max-width: 480px) {

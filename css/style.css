@@ -13,7 +13,7 @@ p {
 
 
 body {
-    background-image: url('./images/Background2-01.png');
+    background-image: url('../images/Background2-01.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 
 
 .text {
-    margin: 30px 150px 30px 150px;
+    margin: 30px 120px 30px 120px;
     font-size: 20px;
 }
 
@@ -66,13 +66,7 @@ body {
         scale: 20%;
     }
 
-    
 
-    body {
-        background-image: url('./images/Background2-01.png');
-        background-size: 20%;
-        width: 200px;
-    }
 
 
     .text {
@@ -92,33 +86,3 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
-    .navbar {
-        scale: 20%;
-    }
-
-    
-
-    body {
-        background-image: url('./images/Background2-01.png');
-        background-size: 20%;
-        width: 200px;
-    }
-
-
-    .text {
-        margin: 30px 30px 30px 30px;
-        font-size: 18px;
-    }
-
-    .box {
-        background: rgba(255, 255, 255, 0.9);
-        height: 100%;
-        margin-top: 0px;
-        margin-left: 15%;
-        margin-right: 15%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-}

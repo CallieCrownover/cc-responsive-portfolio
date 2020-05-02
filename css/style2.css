@@ -10,7 +10,7 @@ p {
 }
 
 body {
-    background-image: url('./images/Background2-02.png');
+    background-image: url('../images/Background2-02.png');
     background-position: center;
     background-size: cover;
 
@@ -74,11 +74,6 @@ body {
 @media screen and (max-width: 600px) {
     .navbar {
         scale: 20%;
-    }
-
-    body {
-        background-image: url('./images/Background2-01.png');
-        background-size: 20%;
     }
 
 

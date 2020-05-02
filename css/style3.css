@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url('./images/Background2-03.png');
+  background-image: url('../images/Background2-03.png');
   background-position: center;
   background-size: cover;
 
@@ -28,17 +28,10 @@ body {
 }
 
 
-.body {
-    background-image: url('file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 
 
 .section {
     padding: 0 100px;
-    background: url(file:///Users/carolinecrownover/Desktop/cc-responsive-portfolio/images/Background2-03.png);
     display: flex;
     align-items: center;
 }
@@ -112,10 +105,6 @@ body {
         scale: 20%;
     }
 
-    body {
-        background-image: url('./images/Background2-01.png');
-        background-size: 20%;
-    }
 
 
     .text {

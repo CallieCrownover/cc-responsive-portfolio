@@ -66,15 +66,49 @@ body {
         scale: 20%;
     }
 
+    
+
     body {
         background-image: url('./images/Background2-01.png');
         background-size: 20%;
+        width: 200px;
     }
 
 
     .text {
         margin: 30px 30px 30px 30px;
         font-size: 15px;
+    }
+
+    .box {
+        background: rgba(255, 255, 255, 0.9);
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        scale: 20%;
+    }
+
+    
+
+    body {
+        background-image: url('./images/Background2-01.png');
+        background-size: 20%;
+        width: 200px;
+    }
+
+
+    .text {
+        margin: 30px 30px 30px 30px;
+        font-size: 18px;
     }
 
     .box {
